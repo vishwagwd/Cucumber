@@ -21,6 +21,7 @@ public class Mapping {
 	WebDriver driver;
 	SoftAssert softassert = new SoftAssert();
 	
+	//here we have used aanotations
 	@Before
 	public void before() {
 		
