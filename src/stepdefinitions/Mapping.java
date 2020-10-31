@@ -20,7 +20,7 @@ import cucumber.api.java.en.Then;
 public class Mapping {
 	WebDriver driver;
 	SoftAssert softassert = new SoftAssert();
-	//vishwa
+
 	@Before
 	public void before() {
 		
@@ -29,6 +29,7 @@ public class Mapping {
 		
 	}
 	
+	//this will be executed  after all the code
 	@After
 	
 	public void after() {

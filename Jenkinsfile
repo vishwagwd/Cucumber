@@ -29,6 +29,7 @@ pipeline {
                            }
                            }
                             stage('Integration test') {
+<<<<<<< HEAD
                               agent {
                                     docker {
                                             reuseNode true
@@ -43,3 +44,19 @@ pipeline {
                            }
               }
 }
+=======
+                              agent { (any)
+                                    docker {
+                                            reuseNode true
+                                            image 'ubuntu'
+                                           }
+                                    }
+                              steps {
+                                echo "Running the integration test..."
+                              }
+                           }
+                           }
+                           }
+              }
+}
+>>>>>>> branch 'master' of https://github.com/vishwagwd/PageobjectModel.git
