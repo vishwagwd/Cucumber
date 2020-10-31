@@ -21,7 +21,7 @@ public class Mapping {
 	WebDriver driver;
 	SoftAssert softassert = new SoftAssert();
 	
-	//vishwa
+	
 	@Before
 	public void before() {
 		
